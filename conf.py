@@ -19,8 +19,8 @@ copyright = u'2014, Craig Blanchette'
 version = ''
 release = ''
 exclude_patterns = []
-html_theme = 'sphinx_rtd_theme'
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_theme = 'symedit_rtd_theme'
+html_theme_path = ['_themes']
 htmlhelp_basename = 'SymEditdoc'
 man_pages = [
     ('index', 'symedit', u'SymEdit Documentation',
