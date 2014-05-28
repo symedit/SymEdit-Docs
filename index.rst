@@ -1,8 +1,8 @@
 SymEdit Documentation
 =====================
 
-SymEdit User Guide
-------------------
+User Guide
+----------
 
 Read the :doc:`User Guide </guide/index>`.
 
@@ -11,8 +11,8 @@ Read the :doc:`User Guide </guide/index>`.
 
     guide/index
 
-SymEdit Bundles Documentation
------------------------------
+Bundles Documentation
+---------------------
 
 Read about :doc:`Our Bundles </bundles/index>`.
 
