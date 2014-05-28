@@ -2,8 +2,9 @@ SymEdit User Guide
 ==================
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 2
 
-   basics
-   pages
-   blog
+    basics
+    pages
+    blog
+    widgets
