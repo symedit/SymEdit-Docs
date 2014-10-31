@@ -26,3 +26,17 @@ Supplemental
 Footer
     The very bottom of your website. This is typically used for contact information and newsletters signups.
 
+Assigning A Widget to Pages
+---------------------------
+
+Each widget has a dropdown option for how you would like to determine its "associations." An
+association is a string like `/`, `/blog`, `/5`. If you choose a visibility option of "Include on ALL Pages"
+then your widget will appear on every page. This is good for things like the footer. In this case
+none of the associations matter because it will show up regardless. If you choose "Include ONLY on specified"
+then your widget will show on the pages you specify. If you choose `/` then it will only show up on your homepage,
+if you choose `/blog` and your blog is located there, it will only show up on your blog. Finally if you choose
+"Exclude ONLY on specified" then your widget will appear on every page EXCEPT the ones you specify.
+
+Note that if you would like widgets to show up in your sidebar, you will need to choose a template for your
+page that includes a sidebar, it will not automatically add the sidebar for you. You can change this on the
+`Template` tab when editing a page, and can usually choose which side you would like the bar on.

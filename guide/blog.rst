@@ -1,8 +1,6 @@
 Using the Blog
 ==============
 
-.. image:: images/blog/list-posts.gif
-
 Creating a New Post
 -------------------
 
@@ -10,8 +8,6 @@ We've made creating a new post very easy to do, but still kept some of the more
 complicated features available to you. The only required information you need
 to create a blog post is the post title, and the content. However, we do suggest
 that you supply SEO (Search Engine Optimization) text as well as a summary.
-
-.. image:: images/blog/create-post.gif
 
 
 Field Descriptions
@@ -84,8 +80,6 @@ asked to confirm your decision before the post is truly deleted.
 *Remember that you can always set your post to "Draft" status so that it won't
 appear in your site.*
 
-.. image:: images/blog/delete-post.gif
-
 Creating a Category
 -------------------
 
@@ -93,8 +87,6 @@ Posts can be classified into categories so that someone reading your blog can
 read articles that are similar if they so choose. Categories themselves don't
 hold much information but can be a good way for search engines to find similar
 content.
-
-.. image:: images/blog/create-category.gif
 
 We suggest writing SEO for the page title and description seeing as though
 otherwise your page title will be something boring like "General" or "Web Design."
