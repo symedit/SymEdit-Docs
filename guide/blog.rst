@@ -25,7 +25,15 @@ Author
    Author of the blog post
 
 Status
-   Determines the status of your blog post. Posts in "Draft" will not be shown on your site
+   Determines the status of your blog post. Posts in "Draft" will not be shown on your site and can be saved for finishing
+later. Posts set to "Scheduled" will not be shown on your site until the Published At date and time is reached.
+
+Published At
+   If your post is set to "Published" then this field can be used to rearrange the order or to fix an incorrect posting date.
+If you set your status to "Published" no matter what date you enter the post will still show with a date possibly in the future.
+Setting your post to "Scheduled" will obey the published at date and not display your post until the date has been reached.
+If you change your post status from "Draft" to "Published" the date will be automatically updated to the current time. If you
+do not wish for this to be the published date you will need to edit it again after moving a post to "Published."
 
 Categories
    Use this to classify your posts, you may choose multiple categories or none at all
