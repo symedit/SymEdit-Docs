@@ -40,3 +40,53 @@ if you choose `/blog` and your blog is located there, it will only show up on yo
 Note that if you would like widgets to show up in your sidebar, you will need to choose a template for your
 page that includes a sidebar, it will not automatically add the sidebar for you. You can change this on the
 `Template` tab when editing a page, and can usually choose which side you would like the bar on.
+
+Shortcode Reference
+-------------------
+
+Widgets can be embedded as shortcodes in most places. They look like this:
+
+    [widget strategy=widget_type parameter=value]
+
+Below is a reference for most widgets.
+
+Recent Posts
+~~~~~~~~~~~~
+
+    [widget test strategy=blog_recent_posts max=2]
+
+`max` should be an integer 1 or greater. Use `latest_post` for a single post.
+
+Latest Post
+~~~~~~~~~~~
+
+    [widget strategy=blog_latest_post show_image=0]
+
+`show_image` can be 1 or 0, for true or false respectively.
+
+Social Sharing
+~~~~~~~~~~~~~~
+
+    [widget strategy=addthis]
+
+Basic Contact Information
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    [widget strategy=contact_info]
+
+Google Map
+~~~~~~~~~~
+
+    [widget strategy=google_map address="123 Address Way, Birmingham AL"]
+
+Image Gallery
+~~~~~~~~~~~~~
+
+    [widget strategy=gallery slider="gallery-slug"]
+
+Slider
+~~~~~~
+
+    [widget strategy=slider slider="gallery-slug" thumbnails=1 stretch=1 controls=1]
+
+`thumbnails`, `stretch`, and `controls` can be set to 1 or 0, for true or false respectively.
