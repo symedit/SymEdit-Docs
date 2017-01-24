@@ -53,10 +53,10 @@ Keywords
    Meta Keywords
 
 Index
-   Whether search engines should index this post
+   Whether search engines should index this page
 
 Follow
-   Whether search engines should follow links from your post
+   Whether search engines should follow links from your page
 
 Crawl
    Unchecking this box will prevent it from showing up in sitemap.xml

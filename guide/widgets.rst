@@ -53,7 +53,7 @@ Below is a reference for most widgets.
 Recent Posts
 ~~~~~~~~~~~~
 
-    [widget test strategy=blog_recent_posts max=2]
+    [widget strategy=blog_recent_posts max=2]
 
 `max` should be an integer 1 or greater. Use `latest_post` for a single post.
 
@@ -63,6 +63,11 @@ Latest Post
     [widget strategy=blog_latest_post show_image=0]
 
 `show_image` can be 1 or 0, for true or false respectively.
+
+Upcoming Events
+~~~~~~~~~~~~~~~
+
+    [widget strategy=upcoming_events max=3]
 
 Social Sharing
 ~~~~~~~~~~~~~~
