@@ -99,4 +99,4 @@ Slider
 Form
 ~~~~
 
-    [widget strategy=form_build form_builder_id=1]
+    [widget strategy=form_builder form_builder_id=1]
