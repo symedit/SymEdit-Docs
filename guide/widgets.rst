@@ -95,3 +95,8 @@ Slider
     [widget strategy=slider slider="gallery-slug" thumbnails=1 stretch=1 controls=1]
 
 `thumbnails`, `stretch`, and `controls` can be set to 1 or 0, for true or false respectively.
+
+Form
+~~~~
+
+    [widget strategy=form_build form_builder_id=1]
